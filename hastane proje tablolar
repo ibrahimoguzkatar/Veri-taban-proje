@@ -1,0 +1,19 @@
+Hastane Otomasyonu - Tablolar 
+
+POLIKLINIK (id PK)
+
+DOKTOR (id PK, ad_soyad, numarasi, poliklinik_id FK)
+
+SERVIS (id PK, poliklinik_id FK)
+
+HEMSIRE (id PK, ad_soyad, numarasi, servis_id FK)
+
+HASTA (id PK, ad_soyad, numarasi)
+
+MUAYENE (doktor_id FK, hasta_id FK)
+
+TAHLIS_ISTEME (hasta_id FK, tahlil_id FK)
+
+TAHLIL (id PK, laboratuvar_id FK)
+
+LABORATUVAR (id PK)
