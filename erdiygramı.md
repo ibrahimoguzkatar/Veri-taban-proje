@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     MISAFIR {
         int misafir_id PK
@@ -38,6 +39,8 @@ erDiagram
     }
 
     ODA_TIPI ||--o{ ODA : "sahiptir"
-    MISAFIR ||--o{ REZERVASYON : "oluşturur"
+    MISAFIR ||--o{ REZERVASYON : "olusturur"
     ODA ||--o{ REZERVASYON : "rezerve_edilir"
-    REZERVASYON ||--o| ODEME : "ödenir"
+    REZERVASYON ||--o| ODEME : "odenir"
+```
+
