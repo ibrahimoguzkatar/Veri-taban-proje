@@ -17,10 +17,9 @@
 
 ## 🚀 Proje Durumu ve Yol Haritası
 
-*(İlerledikçe tamamlanan adımların içindeki boşluğu `[x]` şeklinde değiştirerek işaretleyebilirsiniz.)*
 
-- [ ] Veritabanı tablo tasarımları ve ilişkilerin kurulması
-- [ ] ER Diyagramının oluşturulması
+- [x] Veritabanı tablo tasarımları ve ilişkilerin kurulması
+- [x] ER Diyagramının oluşturulması
 - [ ] SQL DDL (Tablo oluşturma) script'lerinin yazılması
 - [ ] Örnek verilerin (Insert) veritabanına eklenmesi
 - [ ] Gelişmiş sorguların (Join, View vb.) oluşturulması
