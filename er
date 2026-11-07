@@ -1,0 +1,29 @@
+erDiagram
+    MISAFIR {
+        int misafir_id PK
+        string ad
+        string soyad
+        string tc_no
+        string telefon
+        string eposta
+    }
+    
+    ODA {
+        int oda_id PK
+        int oda_numarasi
+        string oda_tipi
+        int kapasite
+        decimal gecelik_fiyat
+    }
+    
+    REZERVASYON {
+        int rezervasyon_id PK
+        int misafir_id FK
+        int oda_id FK
+        date giris_tarihi
+        date cikis_tarihi
+        string durum
+    }
+
+    MISAFIR ||--o{ REZERVASYON : "yapar"
+    ODA ||--o{ REZERVASYON : "alır"
