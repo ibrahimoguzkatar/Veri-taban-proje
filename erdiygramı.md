@@ -122,4 +122,5 @@ erDiagram
     KAMPANYA ||--o{ FATURA : "uygulanir"
     FATURA ||--o{ ODEME : "tahsil_edilir"
 ```
+//.
 
